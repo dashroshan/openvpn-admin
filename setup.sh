@@ -1,3 +1,6 @@
+# Install ufw and git
+apt install ufw git
+
 # Open ports
 read -p "VPN connection port: " vpnport
 ufw allow 80
@@ -25,7 +28,7 @@ echo "Network performance boosted."
 
 # Install python, pip, and screen
 apt update
-apt install python3 python3-pip screen
+apt install python3 python3-pip screen 
 echo "Installed python, pip, and screen."
 
 # Install caddy
